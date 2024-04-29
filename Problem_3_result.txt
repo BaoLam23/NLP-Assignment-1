@@ -1,0 +1,21 @@
+Train with Logistic Regression
+Precision score: 0.551605504587156
+Recall score: 0.900749063670412
+F1 score: 0.6842105263157895
+Accuracy: 0.6214833759590793
+
+Train with MLP
+Precision score: 0.996268656716418
+Recall score: 1.0
+F1 score: 0.9981308411214954
+Accuracy: 0.9982949701619779
+
+Classification report:
+              precision    recall  f1-score   support
+
+     synonym     1.0000    0.9969    0.9984       639
+     antonym     0.9963    1.0000    0.9981       534
+
+    accuracy                         0.9983      1173
+   macro avg     0.9981    0.9984    0.9983      1173
+weighted avg     0.9983    0.9983    0.9983      1173
