@@ -1,0 +1,1 @@
+word: sinh_viên10 nearest words: ['tân_việt', 'đả_động', 'sọc', 'lùi', 'khải_hoàn', '8/6/2010', 'chưa_chết', 'lỗ', 'động_tĩnh', 'nảy_lại']
