@@ -5,7 +5,7 @@ import argparse
 
 def get_k_nearest_words(model, word, k):
     if word not in model:
-        return ['Word is not exist']
+        return ['Word does not exist']
     else:
         h = []
         vec1 = model[word]
