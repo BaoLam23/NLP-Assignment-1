@@ -36,7 +36,7 @@ def main():
         output.append('{} nearest words: {}'.format(opt.k, k_cosine))
         print('word:', opt.w)
         print(opt.k, 'nearest words:', k_cosine)
-        io.write_output("Problem2_result.txt", output)
+        io.write_output("Problem_2_result.txt", output)
     except:
         print('word is not exist')
 
