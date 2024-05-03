@@ -37,7 +37,7 @@ def main():
     vsim_400_file = 'datasets/ViSim-400/Visim-400.txt'
     output, pearsonr, spearmanr = calculate_similarity(vsim_400_file, model)
     df = pd.DataFrame(columns=['Word1', 'Word2', 'Cosine', 'Pearson CC', 'Spearman\'s rank CC'], data=output)
-    df.to_csv('Problem1_result.csv', encoding='utf-8', header=True)
+    df.to_csv('Problem_1_result.csv', encoding='utf-8', header=True)
     print(" Pearson correlation coefficient: ", pearsonr)
     print(" Spearman's rank correlation coefficient: ", spearmanr)
 
