@@ -1,5 +1,5 @@
 from functions import io
-from Problem1_CosineSimilarity import calculate_cosine
+from Problem_1_CosineSimilarity import calculate_cosine
 from heapq import heappush, heappop
 import argparse
 
@@ -23,7 +23,7 @@ def main():
     model = io.load_w2v('word2vec/W2V_150.txt')
 
     # pre handle input
-    parser = argparse.ArgumentParser(description='Problem2 K-nearest words')
+    parser = argparse.ArgumentParser(description='Problem 2 K-nearest words')
     parser.add_argument('-k', help='input k', type=int, default=10, required=False)
     parser.add_argument('-w', help='input word', type=str, default='sinh_viên', required=False)
     opt = parser.parse_args()
