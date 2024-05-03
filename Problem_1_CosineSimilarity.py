@@ -4,7 +4,7 @@ from functions import io
 import math
 
 def calculate_cosine(v1, v2):
-    return 1.0*(sum(i*j for i,j in zip(v1,v2)))/(math.sqrt(sum(i**2 for i in v1)) + math.sqrt(sum(j**2 for j in v2)))
+    return 1.0*(sum(i*j for i,j in zip(v1,v2)))/(math.sqrt(sum(i**2 for i in v1)) * math.sqrt(sum(j**2 for j in v2)))
 
 def calculate_similarity(input_file, model):
     output = []
